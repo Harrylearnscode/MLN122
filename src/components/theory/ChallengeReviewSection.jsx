@@ -79,16 +79,15 @@ function ChallengeReviewSection({ motionVariant }) {
       className="mt-12 rounded-[30px] bg-white/84 p-5 shadow-[0_16px_34px_rgba(13,55,89,0.11)] sm:p-7"
     >
       <div className="mb-5 flex flex-col items-center gap-3 text-center">
-        <span className="inline-flex rounded-full bg-indigo-100 px-3 py-1 text-xs font-semibold tracking-wide text-indigo-700 uppercase">
+        <span className="inline-flex rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold tracking-wide text-emerald-800 uppercase">
           Thử thách Ôn tập
         </span>
         <h2 className="text-2xl font-semibold text-slate-800 sm:text-3xl">
-          Chuỗi giá trị trong một cuốc Grab giờ cao điểm
+          Giải mã lợi nhuận Ngân hàng
         </h2>
       </div>
       <p className="mx-auto mb-6 max-w-3xl text-center text-base leading-relaxed text-slate-600 sm:text-lg">
-        Ví dụ ôn tập: Một cuốc xe Grab giờ cao điểm, thể hiện quá trình tạo ra
-        và phân phối giá trị trong kinh tế số.
+        Sắp xếp các bước dưới đây để hiểu rõ hành trình của dòng tiền và nguồn gốc thực sự tạo ra lợi nhuận cho các ngân hàng như BIDV.
       </p>
 
       <div className="space-y-3">
@@ -116,13 +115,13 @@ function ChallengeReviewSection({ motionVariant }) {
                 showCorrectTick
                   ? "bg-emerald-50/90 shadow-[inset_0_0_0_1px_rgba(5,150,105,0.3)]"
                   : "bg-slate-50/90 shadow-[inset_0_0_0_1px_rgba(15,42,66,0.08)] hover:shadow-[inset_0_0_0_1px_rgba(15,42,66,0.15)]"
-              } ${isDropTarget ? "ring-2 ring-indigo-400 scale-105" : ""} ${
+              } ${isDropTarget ? "ring-2 ring-emerald-400 scale-105" : ""} ${
                 isDragging ? "opacity-50" : ""
               }`}
             >
               <div className="mb-2 flex items-start justify-between gap-3">
                 <div className="flex items-center gap-3">
-                  <span className="inline-flex h-8 min-w-8 items-center justify-center rounded-full bg-indigo-600 px-2 text-xs font-bold text-white shadow-sm">
+                  <span className="inline-flex h-8 min-w-8 items-center justify-center rounded-full bg-emerald-600 px-2 text-xs font-bold text-white shadow-sm">
                     {displayPosition}
                   </span>
                   <h3 className="text-base font-semibold text-slate-800">
@@ -135,7 +134,7 @@ function ChallengeReviewSection({ motionVariant }) {
                       <CheckCircle2 className="h-4 w-4" />
                     </span>
                   )}
-                  <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-indigo-50 text-indigo-400 hover:bg-indigo-100 hover:text-indigo-600 transition-colors">
+                  <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-slate-100 text-slate-400 hover:bg-emerald-100 hover:text-emerald-600 transition-colors">
                     <GripVertical className="h-4 w-4" />
                   </span>
                 </div>
@@ -160,11 +159,11 @@ function ChallengeReviewSection({ motionVariant }) {
 
         {isChallengeSolved ? (
           <p className="text-sm font-semibold text-emerald-600 bg-emerald-50 px-4 py-2 rounded-xl">
-            🎉 Tuyệt vời! Bạn đã sắp xếp chính xác thứ tự của chuỗi giá trị.
+            🎉 Tuyệt vời! Bạn đã sắp xếp chính xác chuỗi phân chia giá trị thặng dư.
           </p>
         ) : (
           <p className="text-sm font-medium text-slate-500">
-            Kéo thả các thẻ để sắp xếp đúng trình tự vận hành.
+            Kéo thả các thẻ để sắp xếp đúng trình tự vận hành của dòng vốn.
           </p>
         )}
       </div>

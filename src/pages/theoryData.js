@@ -1,88 +1,84 @@
-import { BarChart3, BrainCircuit, Cpu, HandCoins } from "lucide-react";
+import { Building2, Landmark, ShoppingCart, BrainCircuit } from "lucide-react";
 
 export const theorySections = [
   {
     id: "01",
-    title: "Lý luận của C. Mác về giá trị thặng dư",
-    icon: BrainCircuit,
-    iconTone: "bg-emerald-100 text-emerald-700",
-    glow: "from-emerald-400/20 via-transparent to-transparent",
-    usePopup: true,
-    preview:
-      "Giải thích nguồn gốc giá trị thặng dư từ vận động tiền tệ thành tư bản.",
+    title: "Đặt vấn đề: Nghịch lý từ các ngành tỷ đô",
+    icon: ShoppingCart,
+    iconTone: "bg-rose-100 text-rose-700",
+    glow: "from-rose-400/20 via-transparent to-transparent",
+    preview: "Phân tích doanh thu của Bất động sản, Bán lẻ và Ngân hàng.",
   },
   {
     id: "02",
-    title: "Tích lũy tư bản",
-    icon: HandCoins,
-    iconTone: "bg-amber-100 text-amber-700",
-    glow: "from-amber-400/20 via-transparent to-transparent",
+    title: "Nguồn gốc: Giá trị thặng dư là gì?",
+    icon: BrainCircuit,
+    iconTone: "bg-emerald-100 text-emerald-700",
+    glow: "from-emerald-400/20 via-transparent to-transparent",
+    preview: "Chìa khóa giải mã nơi xuất phát của dòng tiền.",
   },
   {
     id: "03",
-    title:
-      "Các hình thức biểu hiện của giá trị thặng dư trong nền kinh tế thị trường",
-    icon: BarChart3,
+    title: "Các hình thái phân chia giá trị thặng dư",
+    icon: Landmark,
     iconTone: "bg-blue-100 text-blue-700",
     glow: "from-blue-400/20 via-transparent to-transparent",
     usePopup: true,
-    preview:
-      "Tóm tắt các hình thức biểu hiện của giá trị thặng dư trong kinh tế thị trường.",
+    preview: "Lợi nhuận thương nghiệp, Lợi tức và Địa tô.",
   },
   {
     id: "04",
-    title: "Giá trị thặng dư trong kinh tế số",
-    icon: Cpu,
+    title: "Giải mã: Bản chất 'Tiền đẻ ra tiền'",
+    icon: Building2,
     iconTone: "bg-indigo-100 text-indigo-700",
     glow: "from-indigo-400/20 via-transparent to-transparent",
     usePopup: true,
-    preview:
-      "Mô phỏng cách giá trị thặng dư vận hành trong nền kinh tế số.",
+    preview: "Kết luận về dòng tiền của nền kinh tế thị trường.",
   },
 ];
 
 export const reviewChallenges = [
   {
     id: "01",
-    title: "Khách đặt xe",
+    title: "Huy động vốn nhàn rỗi",
     prompt:
-      "Khách nhập điểm đón/đến và hệ thống hiển thị mức giá dự kiến cho cuốc xe.",
+      "Ngân hàng nhận tiền gửi tiết kiệm từ người dân và trả một mức lãi suất huy động.",
   },
   {
     id: "02",
-    title: "Nền tảng ghép cuốc",
+    title: "Cho vay vốn đầu tư",
     prompt:
-      "Thuật toán phân bổ cuốc xe cho tài xế phù hợp dựa trên vị trí, điểm đánh giá và tỷ lệ nhận chuyến.",
+      "Ngân hàng cho nhà tư bản sản xuất (doanh nghiệp) vay lại số vốn đó với lãi suất cho vay cao hơn.",
   },
   {
     id: "03",
-    title: "Tài xế thực hiện lao động",
+    title: "Tiến hành sản xuất",
     prompt:
-      "Tài xế dùng thời gian, công sức và kỹ năng lái xe để tạo ra dịch vụ thực tế.",
+      "Doanh nghiệp dùng vốn vay mua máy móc, nguyên vật liệu và thuê mướn công nhân.",
   },
   {
     id: "04",
-    title: "Chi phí lao động phát sinh",
+    title: "Tạo ra giá trị thặng dư",
     prompt:
-      "Trong quá trình chạy xe, tài xế tự gánh các khoản xăng, khấu hao xe, bảo trì và thời gian chờ.",
+      "Công nhân lao động sản xuất, tạo ra giá trị mới lớn hơn giá trị sức lao động (sinh ra giá trị thặng dư).",
   },
   {
     id: "05",
-    title: "Khách hoàn tất thanh toán",
+    title: "Thu lợi nhuận bình quân",
     prompt:
-      "Khi cuốc xe kết thúc, khách thanh toán toàn bộ cước phí theo mức giá ứng dụng hiển thị.",
+      "Doanh nghiệp bán hàng hóa ra thị trường và thu về lợi nhuận (hình thái biến tướng của giá trị thặng dư).",
   },
   {
     id: "06",
-    title: "Nền tảng khấu trừ phí",
+    title: "Trích trả lợi tức",
     prompt:
-      "Doanh thu được phân chia: nền tảng giữ phần chiết khấu/phí dịch vụ, tài xế nhận phần còn lại.",
+      "Doanh nghiệp trích một phần từ lợi nhuận thu được để trả lãi vay (lợi tức) cho ngân hàng.",
   },
   {
     id: "07",
-    title: "Biểu hiện giá trị thặng dư",
+    title: "Bản chất lợi nhuận ngân hàng",
     prompt:
-      "Phần giá trị tài xế tạo ra nhưng không giữ trọn vẹn cho thấy cách giá trị thặng dư vận hành trong kinh tế số.",
+      "Ngân hàng lấy lãi cho vay trừ đi lãi huy động. Chênh lệch này chính là lợi nhuận ngân hàng, có nguồn gốc sâu xa từ sức lao động.",
   },
 ];
 

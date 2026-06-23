@@ -17,13 +17,13 @@ function TheoryPage() {
         className="mb-12 text-center"
       >
         <p className="mb-2 text-xs font-semibold tracking-[0.2em] text-emerald-700 uppercase">
-          Theory Studio
+          Kinh tế chính trị Mác - Lênin
         </p>
         <h1 className="text-4xl font-semibold text-slate-800 sm:text-5xl lg:text-6xl">
-          Lý thuyết
+          Sự thật về "Tiền đẻ ra tiền"
         </h1>
         <p className="mx-auto mt-3 max-w-3xl text-lg leading-relaxed text-slate-600 sm:text-2xl">
-          Từ quan điểm của Karl Marx đến biểu hiện trong nền kinh tế số.
+          Phân chia giá trị thặng dư qua các ngành: Thương mại, Ngân hàng và Bất động sản.
         </p>
       </MotionHeader>
 

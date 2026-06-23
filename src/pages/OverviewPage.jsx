@@ -3,17 +3,18 @@ import { SiDeepmind, SiNotebooklm, SiOpenai } from 'react-icons/si'
 const overviewData = {
   title: 'Gi\u00e1 tr\u1ecb th\u1eb7ng d\u01b0 trong kinh t\u1ebf s\u1ed1',
   subtitle: 'Ai th\u1ef1c s\u1ef1 h\u01b0\u1edfng l\u1ee3i trong n\u1ec1n kinh t\u1ebf s\u1ed1?',
-  lecturer: 'Gi\u1ea3ng vi\u00ean h\u01b0\u1edbng d\u1eabn: Ho\u00e0ng Th\u1eafng',
+  lecturer: 'Giảng viên hướng dẫn: Nguyễn Văn Bình',
   members: [
-    'Nguy\u1ec5n Nam Th\u1ecbnh - SE182156',
-    'L\u01b0\u01a1ng Nguy\u1ec5n Duy Khang - SE193897',
-    'Nguy\u1ec5n Th\u00e0nh Ng\u1ecdc - SE180279',
+    'Phạm Xuân Hoàng - SE190821',
+    'Phan Phước Long Trì - SE184536',
+    'Nguyễn Việt Hoàng - SE182984',
+    'Hoàng Huy Hoàng - SE193680',
+    'Nguyễn Hồ Nhật Minh SE190651',
   ],
   presentation: [
-    'Kh\u00e1i ni\u1ec7m gi\u00e1 tr\u1ecb th\u1eb7ng d\u01b0 trong b\u1ed1i c\u1ea3nh s\u1ed1.',
-    'Ai t\u1ea1o ra gi\u00e1 tr\u1ecb, ai n\u1eafm gi\u1eef l\u1ee3i \u00edch trong n\u1ec1n t\u1ea3ng s\u1ed1.',
-    'Vai tr\u00f2 c\u1ee7a d\u1eef li\u1ec7u, n\u1ec1n t\u1ea3ng v\u00e0 lao \u0111\u1ed9ng s\u1ed1.',
-    '\u0110\u1ec1 xu\u1ea5t g\u00f3c nh\u00ecn c\u00f4ng b\u1eb1ng h\u01a1n trong ph\u00e2n ph\u1ed1i gi\u00e1 tr\u1ecb.',
+    'Số liệu thực tế của một số công ty.',
+    'Các hình thức biểu hiện của giá trị thặng dư trong nền kinh tế thị trường.',
+    'Trả lời câu hỏi tiền có đẻ ra tiền.',
   ],
   tools: [
     {
@@ -27,12 +28,6 @@ const overviewData = {
       subtitle: 'D\u00f9ng \u0111\u1ec3 t\u1ea1o video.',
       icon: SiNotebooklm,
       iconClass: 'from-sky-500 to-cyan-500',
-    },
-    {
-      name: 'DeepSeek',
-      subtitle: 'D\u00f9ng \u0111\u1ec3 t\u00ecm hi\u1ec3u n\u1ed9i dung.',
-      icon: SiDeepmind,
-      iconClass: 'from-amber-500 to-orange-500',
     },
   ],
 }
