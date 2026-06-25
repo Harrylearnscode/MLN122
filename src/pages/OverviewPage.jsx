@@ -1,8 +1,7 @@
 import { SiDeepmind, SiNotebooklm, SiOpenai } from 'react-icons/si'
 
 const overviewData = {
-  title: 'Gi\u00e1 tr\u1ecb th\u1eb7ng d\u01b0 trong kinh t\u1ebf s\u1ed1',
-  subtitle: 'Ai th\u1ef1c s\u1ef1 h\u01b0\u1edfng l\u1ee3i trong n\u1ec1n kinh t\u1ebf s\u1ed1?',
+  title: 'Phân chia giá trị thặng dư và câu chuyện "tiền đẻ ra tiền"',
   lecturer: 'Giảng viên hướng dẫn: Nguyễn Văn Bình',
   members: [
     'Phạm Xuân Hoàng - SE190821',
